@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.calculator{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    font-family: 'PT Sans', sans-serif;
+    max-width: 90%;
+    background-color: rgb(160, 160, 160);
+    .display{
+        font-weight: 500;
+        font-size: 2.2rem;
+        color: #ffff;
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        // background-color: #808080;
+        background-color: #7e858a;
+    }
+    .row{
+        max-width: 100%;
+        display: flex;
+        background-color: #cccccc;
+        .col-math{
+            background-color:  #ff941a;
+            color: #ffff;
+            font-size: 1.6rem;
+        }
+        .col-math.col-spl{
+            font-size: 2.1rem;
+        }
+        .col{
+            cursor: pointer;
+            font-size: 1.6rem;
+            font-weight: 500;
+            height: 50px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0.001em solid #a2a2a2;;
+            &:hover{
+                border: .5px solid #000;
+            }
+        }
+        
+        .col-zero{
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 1.6rem;
+            width: 25%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: .5px solid #a2a2a2;
+            &:hover{
+                border: .5px solid #000;
+            }
+        }
+        .col-dot{
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 1.6rem;
+            width: 25%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: .5px solid #a2a2a2;
+            &:hover{
+                border: .5px solid #000;
+            }
+        }
+        .col-eq{
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 1.6rem;
+            width: 25%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: .5px solid #a2a2a2;
+            &:hover{
+                border: .5px solid #000;
+            }
+        }
+        .col-perc{
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 1.6rem;
+            width: 25%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: .5px solid #a2a2a2;
+            &:hover{
+                border: .5px solid #000;
+            }
+        }
+    }
+}
+}
